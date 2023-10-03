@@ -1,0 +1,22 @@
+{
+  "name": "sespaintrack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "send:template": "ts-node src/recovery-password/src/update",
+    "send:email": "ts-node src/recovery-password/src/send"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1468.0",
+    "dotenv": "^16.3.1"
+  }
+}
