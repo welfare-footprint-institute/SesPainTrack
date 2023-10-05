@@ -28,7 +28,7 @@ SES.updateTemplate(
     Template: {
       TemplateName: "RECOVERY-PASSWORD",
       HtmlPart: htmlTemplate,
-      SubjectPart: "Recovery Password",
+      SubjectPart: "Reset Password",
       TextPart: textTemplate,
     },
   },
