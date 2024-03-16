@@ -5,14 +5,15 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "send:template": "ts-node src/recovery-password/src/update",
-    "send:email": "ts-node src/recovery-password/src/send"
+    "send:template:recovery": "ts-node src/recovery-password/src/update",
+    "send:template:contact": "ts-node src/contact/src/update"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.8.2",
+    "ts-node": "^10.9.2",
     "typescript": "^5.2.2"
   },
   "dependencies": {

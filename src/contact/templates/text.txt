@@ -1,0 +1,4 @@
+Email from: {{email}}
+Subject: {{subject}}
+Message: {{message}}
+Sent from: {{browser}} on {{os}} at {{time}}
