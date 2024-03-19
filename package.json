@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "send:template:recovery": "ts-node src/recovery-password/src/update",
-    "send:template:contact": "ts-node src/contact/src/update"
+    "send:template:contact": "ts-node src/contact/src/update",
+    "send:template:request-email-change": "ts-node src/request-email-change-code/src/update"
   },
   "keywords": [],
   "author": "",
