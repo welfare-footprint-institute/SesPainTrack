@@ -15,11 +15,11 @@ const SES = new AWS.SES({
 });
 
 const htmlTemplate = fs.readFileSync(
-  "./src/contact/templates/template.html",
+  "./src/request-email-change-code/templates/template.html",
   "utf8"
 );
 const textTemplate = fs.readFileSync(
-  "./src/contact/templates/text.txt",
+  "./src/request-email-change-code/templates/text.txt",
   "utf8"
 );
 
