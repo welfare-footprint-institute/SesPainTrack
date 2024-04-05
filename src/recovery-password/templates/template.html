@@ -132,6 +132,16 @@
         border-left: 18px solid #22bc66;
       }
 
+      .button--blue {
+        background-color: #005697 !important;
+        border-top: 10px solid #005697 !important;
+        border-right: 18px solid #005697 !important;
+        border-bottom: 10px solid #005697 !important;
+        border-left: 18px solid #005697 !important;
+        color: #ffffff !important;
+        text-decoration: none;
+      }
+
       .button--red {
         background-color: #ff6136;
         border-top: 10px solid #ff6136;
@@ -285,7 +295,7 @@
       }
 
       body {
-        background-color: #f2f4f6;
+        background-color: #ffffff;
         color: #51545e;
       }
 
@@ -300,7 +310,7 @@
         -premailer-width: 100%;
         -premailer-cellpadding: 0;
         -premailer-cellspacing: 0;
-        background-color: #f2f4f6;
+        background-color: #ffffff;
       }
 
       .email-content {
@@ -328,6 +338,7 @@
         color: #a8aaaf;
         text-decoration: none;
         text-shadow: 0 1px 0 white;
+        margin-bottom: 20px;
       }
       /* Body ------------------------------ */
 
@@ -383,6 +394,10 @@
       .content-cell {
         padding: 45px;
       }
+
+      .logo-title-image {
+        margin-right: 10px;
+      }
       /*Media Queries ------------------------------ */
 
       @media only screen and (max-width: 600px) {
@@ -399,10 +414,6 @@
         .email-content,
         .email-wrapper,
         .email-masthead,
-        .email-footer {
-          background-color: #333333 !important;
-          color: #fff !important;
-        }
         p,
         ul,
         ol,
@@ -412,7 +423,7 @@
         h3,
         span,
         .purchase_item {
-          color: #fff !important;
+          color: #333333 !important;
         }
         .attributes_content,
         .discount {
@@ -458,13 +469,27 @@
             role="presentation"
           >
             <tr>
-              <td class="email-masthead">
-                <a
-                  href="https://pain-track.org"
-                  class="f-fallback email-masthead_name"
+              <td class="email-masthead" align="center">
+                <table
+                  align="center"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
                 >
-                  Pain Track
-                </a>
+                  <tr>
+                    <td>
+                      <img
+                        width="40"
+                        height="50"
+                        class="logo-title-image"
+                        src="https://iili.io/JNkBXOg.png"
+                      />
+                    </td>
+                    <td>
+                      <p>PAIN<strong>TRACK</strong></p>
+                    </td>
+                  </tr>
+                </table>
               </td>
             </tr>
             <!-- Email Body -->
@@ -520,7 +545,7 @@
                                   <td align="center">
                                     <a
                                       href="{{action_url}}"
-                                      class="f-fallback button button--green"
+                                      class="f-fallback button button--blue"
                                       target="_blank"
                                       >Reset your password</a
                                     >
